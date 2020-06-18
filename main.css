@@ -1,0 +1,30 @@
+* COMMON */
+
+
+
+/* HEADER */
+.image-header {
+  background: no-repeat url("images/header/header.png");
+  background-size: cover;
+  height: 802px;
+  width: 100%;
+}
+
+.hamburger-icon {
+  height: 38px;
+  width: 100%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.opacity {
+  background-color: rgba(26, 26, 26, 0.4);
+}
+
+
+h2 {
+  font-family: 'Fjalla One'!important, sans-serif;
+  margin-top: 500px;
+}

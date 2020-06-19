@@ -1,5 +1,7 @@
-* COMMON */
-
+/* COMMON */
+* {
+    font-family: "Myriad Pro"!important;
+}
 
 
 /* HEADER */
@@ -24,7 +26,60 @@
 }
 
 
-h2 {
+.titre-header {
   font-family: 'Fjalla One'!important, sans-serif;
-  margin-top: 500px;
+  padding-top: 500px;
+}
+
+
+
+/* FOOTER */
+
+.container {
+  max-width: 1575px!important;
+}
+
+.bg-footer {
+  background-color: rgba(26, 26, 26);
+}
+
+.color-red-footer {
+  color: #eb2525;
+}
+
+.border-bottom-title {
+  border-bottom: solid 3px #eb2525;
+}
+.border-top-footer {
+  border-top: solid 3px #eb2525;
+}
+
+.font-size-title-footer {
+  font-size: 36px;
+}
+
+.border-bottom-horaires {
+  border-bottom: solid 1px #eb2525;
+}
+
+.font-size-tel-footer {
+  font-size: 24px;
+}
+
+.font-size-contact-footer {
+  font-size: 14px;
+}
+
+.icon-mail-size {
+  height: 34px;
+  width: 44px;
+}
+
+.icon-tel-size {
+  height: 45px;
+  width: 45px;
+}
+
+.font-size-horaires {
+  font-size: 18px;
 }

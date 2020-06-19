@@ -1,5 +1,45 @@
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
-</html>
+<footer class="bg-footer">
+  <div class="container pt-5">
+    <div class="row pb-5">
+      <div class="col-lg-3">
+        <a href="#"><img src="images/header/logo.png" alt="logo"></a><br><br><br>
+        <a href="#"><img src="images/footer/instagram-logo.png" alt="instagram-logo" class="pl-5 pr-3"></a>
+        <a href="#"><img src="images/footer/facebook-icon.png" alt="facebook-icon"></a>
+      </div>
+      <div class="col-lg-3">
+        <p class="text-uppercase color-red-footer border-bottom-title font-size-title-footer">liens</p>
+        <span><a href="#" class="text-white font-size-tel-footer">Accueil</a></span><br>
+        <span><a href="#" class="text-white font-size-tel-footer">Véhicules neufs</a></span><br>
+        <span><a href="#" class="text-white font-size-tel-footer">Véhicules d’occasion</a></span><br>
+        <span><a href="#" class="text-white font-size-tel-footer">Nos services</a></span><br>
+        <span><a href="#" class="text-white font-size-tel-footer">Notre expertise</a></span><br>
+        <span><a href="#" class="text-white font-size-tel-footer">Contact</a></span><br>
+      </div>
+      <div class="col-lg-3">
+        <p class="text-uppercase color-red-footer border-bottom-title font-size-title-footer">contact</p>
+        <span><img src="images/footer/tel.png" alt="tel" class="icon-tel-size pr-2"></span>
+        <a href="03 89 24 93 04" class="text-white font-weight-bold font-size-tel-footer">03 89 24 93 04</a><br><br>
+        <span><img src="images/footer/mail.png" alt="mail" class="icon-mail-size pr-2"></span>
+        <a href="mailto:contact@sport-design-automobiles.com" class="text-white font-size-contact-footer">contact@sport-design-automobiles.com</a>
+      </div>
+      <div class="col-lg-3 font-size-horaires">
+        <p class="text-uppercase color-red-footer border-bottom-title font-size-title-footer">horaires</p>
+        <span class="color-red-footer border-bottom-horaires">Lundi - Vendredi :</span><br>
+        <span class="text-white"><span class="font-weight-bold">8h</span>30 - <span class="font-weight-bold">12h</span></span><br>
+        <span class="text-white"><span class="font-weight-bold">14h</span> - <span class="font-weight-bold">18h</span>30</span><br><br>
+        <span class="color-red-footer border-bottom-horaires">Samedi :</span><br>
+        <span class="text-white"><span class="font-weight-bold">9h</span> - <span class="font-weight-bold">12h</span></span>
+      </div>
+    </div>
+  </div>
+  <div class="text-center border-top-footer pt-5 pb-5">
+    <p class="color-red-footer font-size-horaires ">© 2017-2018 Sport Design Automobiles - Une création IZIASYS Communication - Mentions légales - Politique de confidentialité</p>
+  </div>
+</footer>
+
+<!-- SCRIPTS BOOTSTRAP -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+<html>

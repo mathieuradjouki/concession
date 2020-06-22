@@ -4,12 +4,7 @@
     <meta charset="utf-8">
     <title>Sport design service</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
     <link rel="stylesheet" href="service.css">
-
-
-    <!-- CSS THEME -->
-
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
@@ -25,8 +20,6 @@
             <p>Si votre emploi du temps ne vous permet pas de faire le déplacement, nous avons également la possibilité de vous livrer le véhicule (à vos frais) à votre domicile par un transporteur.</p>
             <p>Nous espérons vous compter très vite dans nos fidèles clients !</p>
           </div>
-
-
           <div class="domaines col-5 p-3">
             <h2 class="h2-services">NOS DOMAINES DE COMPTENCE</h2>
               <p>Véhicules neufs toute marque</p>
@@ -38,3 +31,4 @@
         </div>
         </div>
       </header>
+    <!--End header-->

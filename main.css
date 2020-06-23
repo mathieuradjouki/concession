@@ -4,14 +4,7 @@
 }
 
 
-/* HEADER */
-.image-header {
-  background: no-repeat url("images/header/header.png");
-  background-size: cover;
-  height: 802px;
-  width: 100%;
-}
-
+/* Nav */
 .hamburger-icon {
   height: 38px;
   width: 48px;

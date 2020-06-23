@@ -14,7 +14,7 @@
 
 .hamburger-icon {
   height: 38px;
-  width: 100%;
+  width: 48px;
 }
 
 .logo {
@@ -28,8 +28,6 @@
 
 .titre-header {
   font-family: 'Fjalla One'!important, sans-serif;
-
-
   padding-top: 500px;
 }
 
@@ -84,5 +82,4 @@
 
 .font-size-horaires {
   font-size: 18px;
-
 }

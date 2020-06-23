@@ -1,0 +1,140 @@
+/* HEADER */
+.banner
+{
+  background-image: url("img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 530px;
+}
+
+.fond
+{
+  background-color: #333333;
+  width: auto;
+}
+/*critère de sélection*/
+.section-criteres
+{
+  margin-top: 5em;
+}
+.critere
+{
+  background-color: transparent;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+input
+{
+  border: none!important;
+  border-bottom: 3px solid white!important;
+  position: relative;
+  left: 5em;
+}
+
+
+.critere > .row
+{
+  color: white;
+}
+::placeholder
+{
+  color:white!important;
+}
+.btn-red
+{
+  background: none;
+  color: red;
+  border-color: red;
+  margin-left: 4em;
+}
+.btn-black
+{
+  background: none;
+  color: black;
+  border-color: black;
+  margin-left: 3em;
+}
+.masquer
+{
+  display: none;
+}
+
+#span-contenus
+{
+  display: none;
+}
+/*voitures*/
+.container
+{
+  background-color: #333333;
+}
+.card
+{
+  width: 100%;
+  height: 100%
+  object-fit: cover;
+}
+.row
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.prix
+{
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: right;
+}
+.card-title
+{
+  font-family: "Myriad-pro";
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/*overlay*/
+.hover-img:hover .overlay
+{
+  opacity: 1;
+  opacity:70%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left:0;
+  right:0;
+  max-height: 320px;
+  max-width: 273px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #666666;
+
+}
+
+.text {
+  display: inline-block;
+  text-align: left;
+  color: white;
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.more
+{
+
+  color: red;
+  border-color: red;
+}
+#span_more
+{
+  display: none;
+}

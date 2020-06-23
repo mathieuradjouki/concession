@@ -1,5 +1,5 @@
 /*General*/
-p{
+.p-services{
   color: white;
 }
 .h2-services{
@@ -11,29 +11,29 @@ p{
   background-size: cover;
   padding: 10% 4% 10% 4%;
 }
-.box{
+.box-services{
   display: flex;
   justify-content: space-around;
 }
 
-.box-gauche{
+.box-gauche-services{
   background-color: rgba(11,11,11,0.5);
   align-self: center;
 }
-.domaines{
+.domaines-services{
   background-color: rgba(11,11,11,0.5);
   align-self: flex-end;
 }
-.domaines ul{
+.domaines-services ul{
   color: white;
   list-style: none;
 }
 /*Sport design*/
-.sport-design{
+.sport-design-services{
   background-color: #000000;
     padding: 2em 0 2rem 2rem;
 }
-.sport-design-card{
+.sport-design-card-services{
   padding: 1em;
   text-align: center;
 }
@@ -47,10 +47,10 @@ p{
 .h5-services{
   color: #eb2525;
 }
-.row-sport{
+.row-sport-services{
   padding: 0 0 0 5%;
 }
-.line-sport{
+.line-sport-services{
   max-height: 1.5em;
   transform: translateY(8px);
 }
@@ -65,12 +65,10 @@ p{
   max-width: 150px;
   max-height: 90px;
   padding: 5%;
+  align-self: center;
 }
 .h5-utilities{
   color: #ffffff;
-}
-.card img{
-  align-self: center;
 }
 .row-utilities{
   padding-left: 5%;

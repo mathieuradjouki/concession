@@ -1,0 +1,12 @@
+/*media services*/
+@media screen and (max-width: 1025px){
+  .box-services{
+    display: block;
+  }
+  .box-services .col-6{
+    max-width: 100%;
+  }
+  .box-services .col-5{
+      max-width: 100%}
+  }
+}

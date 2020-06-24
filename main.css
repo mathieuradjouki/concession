@@ -165,6 +165,169 @@
 
 /*Fin CSS Services*/
 
+/* CSS AVIS */
+
+/* qui sommes nous (avis) */
+.bg-qui-sommes-nous {
+  background-color: #262626;
+}
+
+.titre-qui-sommes-nous {
+  font-size: 36px;
+  color: #eb2525!important;
+}
+
+.paragraphe-size-qui-sommes-nous {
+  font-size: 25px;
+}
+
+.car-icon{
+  height: 72px;
+  width: 60px;
+}
+
+.bg-photo-presentation {
+  background: no-repeat url("img-avis/Qui_Sommes_Nous/auto-presentation.png");
+  background-size: 100%;
+  background-position: center;
+  height: 750px;
+  width:70%;
+
+}
+
+li {
+  list-style: none;
+}
+
+.overlay-presentation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #b74245;
+}
+
+.hover-presentation:hover .overlay-presentation {
+  opacity: 0.6;
+}
+
+/* carousel (avis) */
+.lines {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 953px;
+}
+
+.margin-auto-avis {
+  margin: auto;
+  padding: auto;
+}
+
+.border-avis {
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  padding: 53px 136px 54px 136px;
+  width: 912px;
+  height: 433px;
+}
+
+.icone-auteur-spacing {
+  padding-top: 50px;
+  padding-left: 400px;
+}
+
+.auteur-icone-name {
+  padding-left: 400px;
+}
+
+.carousel-position-avis {
+  position: relative;
+  bottom: 4em;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+
+.icone-quote {
+  position: absolute;
+  left: 65%;
+}
+
+.carousel-margin-paddin {
+  padding-bottom: 150px;
+}
+
+.bg-image {
+  background: no-repeat url("img-avis/Avis/lines.png");
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+  height: 953px;
+}
+
+#carousel {
+  padding-top: 300px;
+}
+
+
+/* form (avis) */
+.bg-image-form {
+  background: no-repeat url('img-avis/Form/form-photo.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 990px;
+}
+
+.border-form {
+  border: none!important;
+  border-bottom: 1px solid #ffffff!important;
+}
+
+.margin-stars {
+  margin-left: -100px;
+}
+
+::placeholder {
+  color: #ffffff!important;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+input{
+  padding: 20px;
+}
+
+textarea {
+  padding: 20px;
+}
+
+.size-text-form {
+  font-size: 36px;
+}
+/* FIN CSS AVIS */
+
+
+
+
 /* MEDIA QUERIES */
 @media (min-width: 990px) {
   /* FOOTER */

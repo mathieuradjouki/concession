@@ -25,10 +25,11 @@
 }
 
 
-
 /* FOOTER */
 
-
+.container-fluid {
+  max-width: 1575px!important;
+}
 
 .bg-footer {
   background-color: rgba(26, 26, 26);
@@ -74,6 +75,7 @@
 .font-size-horaires {
   font-size: 18px;
 }
+
 /*CSS SERVICES*/
 /*General services*/
 .p-services{
@@ -162,3 +164,40 @@
 /*CSS Mobile Services*/
 
 /*Fin CSS Services*/
+
+/* MEDIA QUERIES */
+@media (min-width: 440px) {
+  /* FOOTER */
+  .mobile-button {
+    display: none;
+  }
+
+  .footer-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  /* FOOTER */
+
+  .footer-desktop {
+    display: none;
+  }
+
+  .font-size-title-footer {
+    font-size: 18px;
+  }
+
+  .font-size-text-horaires {
+    font-size: 12px;
+  }
+
+  .font-size-contact-footer {
+    12px;
+  }
+
+  .font-size-copyright {
+    font-size: 8px;
+  }
+
+}

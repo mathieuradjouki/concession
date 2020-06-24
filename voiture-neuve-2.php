@@ -322,9 +322,9 @@ include ('header.php')
 
           <!--Bouton MORE et back-top-->
 
-          <div class="row row-voitures">
+          <div class="row row-more-voitures">
           <button type="button" class="more bg-transparent col-lg-2 mb-5" onClick="afficher_cacher('span_more')">MORE</button>
-           <a href="#top" class="top"><img src="img/retour-banner.png"   alt="bouton"></a>
+           <a href="#top" class="top"><img src="img/retour-banner.png"  alt="bouton"></a>
           </div>
 
          <!-- Voiture masquer-->

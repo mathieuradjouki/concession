@@ -128,15 +128,16 @@ input
 .redb{
   padding-left: 90%;
 }
-
+.row-more-voiture{
+  display: flex;
+}
 .more
 {
 
   color: red;
   border-color: red;
   font-size: 24px;
-  margin-left:auto;
-  margin-right: auto;
+  margin:auto;
 }
 #span_more
 {

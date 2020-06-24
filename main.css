@@ -166,7 +166,7 @@
 /*Fin CSS Services*/
 
 /* MEDIA QUERIES */
-@media (min-width: 440px) {
+@media (min-width: 990px) {
   /* FOOTER */
   .mobile-button {
     display: none;

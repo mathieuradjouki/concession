@@ -25,9 +25,9 @@ include ('header.php')
           <button class="btn-reset-voitures formbutton" type="submit">RESET</button>
         </div>
         <div  class="col">
-          <button type="button" class="bg-transparent" onClick="Show('span_contenus')"><img src="img/header/bouton+.png" /></button>
+          <button type="button" class="bg-transparent btn-plus-voitures" onClick="Show('span_contenus')"><img src="img/header/bouton+.png" /></button>
         </div>
-      </div>
+    </div>
       <span id="span_contenus" class="criteres-masquer">
           <div class="row row-voitures">
             <div class="col-2">
@@ -46,6 +46,7 @@ include ('header.php')
       </span>
     </form>
   </section> <!--fin criteres-->
+  <h4 class="vehicules-neufs pt-5"> VEHICULES NEUFS </h4>
 </header>
 <!--Fin Banner et Critère-->
 

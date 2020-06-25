@@ -52,7 +52,14 @@ input
   display: none;
 }
 
-
+.vehicules-neufs
+{
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: 24px;
+  padding-top: 320x!important;
+}
 /*voitures*/
 .container-card
 {
@@ -166,9 +173,7 @@ input
   {
     padding-top: 32px;
   }
-  .section-criteres-voitures > .col-2{
-   display: none;
-  }
+
   .bg-mobile-voitures
   {
     background-color: #333333;
@@ -210,12 +215,30 @@ input
     min-width: 100%;
     margin-bottom: 2em;
   }
+  .btn-recherche-voitures , .btn-reset-voitures, .btn-+-voitures
+  {
+    display: none;
+  }
+  .criteres-masquer > .col-2
+  {
+    max-width: 100%;
+    margin-bottom: 3em;
+    margin-top: 0;
+  }
+  .btn-plus-voitures
+  {
+    margin-bottom: 50px;
+    justify-content: center;
+    line-height: normal;
+
+  }
 }
 @media (min-width: 991px)
 {
   .section-criteres-voitures
   {
     padding-top: 128px;
+    line-height: normal;
   }
   .carousel-voitures
   {
@@ -228,6 +251,10 @@ input
   .bg-mobile-voitures-2
   {
     display: none;
+  }
+  .btn-critere-voitures
+  {
+    margin-top: 5px;
   }
 
 }

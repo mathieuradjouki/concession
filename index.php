@@ -1,4 +1,6 @@
-<?php include 'headeraccueil.php'?>
+<?php
+include ('headeraccueil.php')
+?>
 <link rel="stylesheet" href="pageaccueil.css">
 
 <section id="bodyversiondesktop">

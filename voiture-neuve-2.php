@@ -1,7 +1,7 @@
 <?php
 include ('header.php')
  ?>
-<!--Banner et Critères-->
+<!--Banner et Critères--><link rel="stylesheet" href="style.css">
  <header class ="banner-vehicule">
   <section class="section-criteres-voitures"> <!--debut criteres-->
     <form>

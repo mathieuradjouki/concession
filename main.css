@@ -25,12 +25,9 @@
 }
 
 
-
 /* FOOTER */
 
-.container {
-  max-width: 1575px!important;
-}
+
 
 .bg-footer {
   background-color: rgba(26, 26, 26);
@@ -75,4 +72,906 @@
 
 .font-size-horaires {
   font-size: 18px;
+}
+
+/*CSS SERVICES*/
+/*General services*/
+.p-services{
+  color: white;
+}
+.h2-services{
+  color: #eb2525;
+}
+.logo-services{
+  max-height: 60px;
+}
+/*header-service*/
+.header-service{
+  background-image: url('image/fond-header-compressor.jpg');
+  background-size: cover;
+  padding: 10% 4% 10% 4%;
+}
+.box-services{
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-gauche-services{
+  background-color: rgba(11,11,11,0.5);
+  align-self: center;
+}
+.domaines-services{
+  background-color: rgba(11,11,11,0.5);
+  align-self: flex-end;
+}
+.domaines-services ul{
+  color: white;
+  list-style: none;
+}
+/*Sport design*/
+.sport-design-services{
+  background-color: #000000;
+    padding: 2em 0 2rem 2rem;
+}
+.sport-design-card-services{
+  padding: 1em;
+  text-align: center;
+}
+.card-services{
+  background-color: #262626;
+  margin: 0 10%;
+}
+.card-body{
+  text-align: center;
+}
+.h5-services{
+  color: #eb2525;
+}
+.row-sport-services{
+  padding: 0 0 0 5%;
+}
+.line-sport-services{
+  max-height: 1.5em;
+  transform: translateY(8px);
+}
+/*utilities*/
+.utilities{
+  background-image: url('image/image-utilities-compressor.jpg');
+  height: 100%;
+  padding: 2em 0 2rem 2rem;
+
+}
+.img-utilities{
+  max-width: 150px;
+  max-height: 90px;
+  padding: 5%;
+  align-self: center;
+}
+.h5-utilities{
+  color: #ffffff;
+}
+.row-utilities{
+  padding-left: 5%;
+}
+.utilities-card{
+  padding-top: 1em;
+}
+.fond-utilities{
+  color: rgba(235, 37, 37 ,0.3)
+}
+.card-utilities{
+  background-color: rgba(38,38,38,0.7)
+}
+/*CSS Mobile Services*/
+
+/*Fin CSS Services*/
+
+/* CSS AVIS */
+
+/* qui sommes nous (avis) */
+.bg-qui-sommes-nous {
+  background-color: #262626;
+}
+
+.titre-qui-sommes-nous {
+  font-size: 36px;
+  color: #eb2525!important;
+}
+
+.paragraphe-size-qui-sommes-nous {
+  font-size: 25px;
+}
+
+.car-icon{
+  height: 72px;
+  width: 60px;
+}
+
+.bg-photo-presentation {
+  background: no-repeat url("img-avis/Qui_Sommes_Nous/auto-presentation.png");
+  background-size: 100%;
+  background-position: center;
+  height: 750px;
+  width:70%;
+
+}
+
+li {
+  list-style: none;
+}
+
+.overlay-presentation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #b74245;
+}
+
+.hover-presentation:hover .overlay-presentation {
+  opacity: 0.6;
+}
+
+/* carousel (avis) */
+.lines {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 953px;
+}
+
+.margin-auto-avis {
+  margin: auto;
+  padding: auto;
+}
+
+.border-avis {
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  padding: 53px 136px 54px 136px;
+  width: 912px;
+  height: 433px;
+}
+
+.icone-auteur-spacing {
+  padding-top: 50px;
+  padding-left: 400px;
+}
+
+.auteur-icone-name {
+  padding-left: 400px;
+}
+
+.carousel-position-avis {
+  position: relative;
+  bottom: 4em;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+
+.icone-quote {
+  position: absolute;
+  left: 65%;
+}
+
+.carousel-margin-paddin {
+  padding-bottom: 150px;
+}
+
+.bg-image {
+  background: no-repeat url("img-avis/Avis/lines.png");
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+  height: 953px;
+}
+
+#carousel {
+  padding-top: 300px;
+}
+
+
+/* form (avis) */
+.bg-image-form {
+  background: no-repeat url('img-avis/Form/form-photo.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 990px;
+}
+
+.border-form {
+  border: none!important;
+  border-bottom: 1px solid #ffffff!important;
+}
+
+.margin-stars {
+  margin-left: -100px;
+}
+
+::placeholder {
+  color: #ffffff!important;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+input{
+  padding: 20px;
+}
+
+textarea {
+  padding: 20px;
+}
+
+.size-text-form {
+  font-size: 36px;
+}
+/* FIN CSS AVIS */
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 990px) {
+  /* FOOTER */
+  .mobile-button {
+    display: none;
+  }
+
+  .footer-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  /* FOOTER */
+
+  .footer-desktop {
+    display: none;
+  }
+
+  .font-size-title-footer {
+    font-size: 18px;
+  }
+
+  .font-size-text-horaires {
+    font-size: 12px;
+  }
+
+  .font-size-contact-footer {
+    12px;
+  }
+
+  .font-size-copyright {
+    font-size: 8px;
+  }
+
+}
+/*media services*/
+@media screen and (max-width: 1025px){
+  .box-services{
+    display: block;
+  }
+  .box-services .col-6{
+    max-width: 100%;
+  }
+  .box-services .col-5{
+      max-width: 100%}
+  }
+}
+@media screen and (max-width: 1450px) {
+  .logo-services{
+    height: 60px;
+  }
+}
+/*CSS MOBILE*/
+/*header*/
+.bgnavbar{
+  background-color: #000;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opennavbtnstylemobile {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background: none;
+
+}
+.logomobile{
+  width:150px;
+
+}
+
+.sidebartogglemobile{
+  position:fixed;
+  width:100vw!important;
+  background-color:black;
+  opacity:80%;
+  height:0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 1;
+
+  }
+
+.sidebartogglemobile a{
+  color:white;
+  text-align:right;
+  padding: 8px 32px 8px 32px;
+  text-decoration: none;
+  color: white;;
+  display: block;
+  font-size: 2.5rem;
+
+  }
+.sidebarlinks{
+  margin-top: 20vh;
+}
+.sidebartogglemobile a:hover {
+  color: grey;
+}
+
+.closenavbtnmobile {
+  position: absolute;
+  top: 15px;
+  left:20px;
+  font-size: 20px;
+  z-index: 999;
+
+}
+.imagevoitureaccueil{
+    max-height:568px;
+}
+.imagevoituresize{
+  width:100%;
+  height:580px;
+}
+/*fin hedaer*/
+
+/*filtre*/
+
+.findcarmobile{
+position:absolute;
+top: 200px;
+right:50%;
+transform: translateX(50%);
+text-align: center;
+color:white;
+overflow-y: auto;
+height: 250px;
+}
+.form-controlbannermobile{
+  background: none;
+  margin-bottom: 10px;
+  border:none;
+  border-bottom: solid grey;
+  }
+
+.formbuttonaccueilmobile{
+  background:none;
+  color:#eb2525;
+  border: solid 3px #eb2525;
+  border-radius: 0;
+  text-align: right;
+  margin-top: 20px;
+}
+.findcarmobile::-webkit-scrollbar {
+  display:none;
+}
+/*fin filtre*/
+
+/*partie concession*/
+#partieconcessionmobile{
+  background-color: #000;
+}
+
+/*fin concession*/
+
+
+#partiederniersmodelesmobile{
+  background-color: #1a1a1a;
+  height:600px;
+  position:relative;
+}
+
+.essaimobile{
+  position:absolute;
+  top:400px;
+  left:50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  width:100%;
+}
+/*finnosderniersmodeles*/
+/*nosservices*/
+#partienosservicesmobile{
+  background-color: #000;
+
+}
+
+.formbuttonnosservicesmobile{
+  background:none;
+  font-weight: bold;
+  color:#eb2525;
+  border: solid 3px #eb2525;
+  border-radius: 0;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom : 250px;
+}
+
+/*finnosservices*/
+
+.cartemobile{
+width:100%;
+}
+#partienouscontactermobile{
+  position:relative;
+}
+.nouscontactertextmobile{
+position:absolute;
+top:-200px;
+left:50%;
+transform:translateX(-50%);
+background:#1a1a1a;
+color:white;
+width:90%;
+}
+.formbuttonnosnouscontactermobile{
+  background:none;
+  font-weight: bold;
+  color:white;
+  border: solid 3px white;
+  border-radius: 0;
+  text-align: right;
+  margin-top: 20px;
+}
+/*fin CSS MOBILE
+/*CSS DESKTOP*/
+/*header*/
+#navbartoggle{
+  font-family: 'lato', sans-serif;
+}
+.containerwidth{
+  max-width: 1830px;
+}
+.videoaccueil{
+  position:relative;
+  max-height: 700px;
+}
+.logoloupe{
+  position:relative;
+}
+.logo img{
+  position: absolute;
+  top:30px;
+  right:50%;
+  transform:translateX(50%);
+  z-index: 999;
+}
+
+.iconeloupe{
+  position: fixed;
+  right:5%;
+  top:50px;
+  z-index:1;
+}
+
+.sidebartoggle{
+  position:fixed;
+  width:0;
+  background-color:black;
+  opacity:70%;
+  height: 100vh!important;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 80px;
+}
+
+.sidebartoggle a{
+  font-size:3rem;
+  color:white;
+  line-height: 5rem;
+  text-align:right;
+  padding: 8px 32px 8px 32px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  }
+
+.sidebartoggle a:hover {
+  color: grey;
+}
+
+.sidebartoggle .closenavbtn {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  font-size: 20px;
+}
+.opennavbtn {
+  position:fixed;
+  top:25px;
+  left:45px;
+    z-index: 1;
+}
+.opennavbtnstyle {
+  font-size: 45px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background: none;
+}
+/*fin header*/
+
+
+/*filtre*/
+#filtrebanner{
+    font-family: 'lato', sans-serif;
+}
+
+.trouvervehicule{
+  font-family: 'fjalla one', sans-serif;
+}
+.findcar{
+position:absolute;
+top: 150px;
+right:100px;
+text-align: center;
+color:white;
+
+}
+.form-controlbanner{
+  background: none;
+  margin-bottom: 10px;
+  border:none;
+  border-bottom: solid grey;
+  }
+
+.formbuttonaccueil{
+  background:none;
+  font-weight: bold;
+  color:#eb2525;
+  border: solid 3px #eb2525;
+  border-radius: 0;
+  text-align: right;
+  margin-top: 20px;
+}
+
+/*fin filtre*/
+
+
+/* concession*/
+#partieconcession{
+  font-family: 'lato', sans-serif;
+}
+.concession, .concession2{
+position:relative;
+background-color: black;
+}
+
+.concessiontitle {
+  font-family: 'fjalla one', sans-serif;
+  position:absolute;
+  top:350px;
+  right: 20%;
+  color:white;
+  width:min-content;
+  line-height: 2em;
+}
+@media screen and (max-width :1024px){
+  .concessiontitle {
+    font-family: 'fjalla one', sans-serif;
+    position:absolute;
+    top:150px;
+    right: 20%;
+    color:white;
+    width:min-content;
+    line-height: 2em;
+  }
+}
+.concessionparagprahe{
+  position:absolute;
+  top:150px;
+  right: 10%;
+  color:white;
+  width:50vw;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width :1024+=1140px){
+  .concessionparagprahe {
+    position:absolute;
+    top:40px;
+    right: 2%;
+    color:white;
+    width:60vw;
+    line-height: 2em;
+    text-transform: uppercase;
+  }
+}
+
+.mask{
+  mask-image:url(imagesaccueil/masque.png);
+  mask-size :cover;
+  -webkit-mask:url(imagesaccueil/masque.png);
+  -webkit-mask-size:cover;
+  width:100%;
+  height:100%;
+}
+.mask2{
+  mask-image:url(imagesaccueil/masque2.png);
+  mask-size :cover;
+  -webkit-mask:url(imagesaccueil/masque2.png);
+  -webkit-mask-size:cover;
+  width:100%;
+  height:100%;
+}
+
+.imgfloatleft{
+  float:left;
+  padding-right: 80px;
+  margin-top: 30px;
+
+  }
+}
+/* fin concession*/
+
+
+/* dernières modèles*/
+#partiederniersmodeles{
+  font-family: 'lato', sans-serif;
+  margin-top: 200px;
+}
+
+.bg-color{
+  position:relative;
+  background-color:#262626!important;
+  height: 900px!important;
+}
+
+
+.titrederniers {
+  font-family: 'fjalla one', sans-serif;
+  position:absolute;
+  top:30px;
+  left:10%;
+  font-size: 2.5rem!important;
+}
+.essai{
+  position:absolute;
+  top:700px;
+  left:50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+}
+
+.nosdernieresmodelescarousel{
+  width:70%;
+  text-align: left;
+  margin:auto;
+  object-fit: cover;
+  padding-top: 200px;
+
+}
+
+
+.carouselimg p{
+  width:200px;
+  margin-left: 400px;
+}
+.carouselimg p.text-danger{
+  text-align: right;
+}
+
+@media screen and (max-width:1024px){
+  .carouselimg p{
+    width:200px;
+    margin-left: 350px;
+  }
+  .carouselimg p.text-danger{
+    text-align: right;
+  }
+}
+/*fin dernières modèles*/
+
+
+/*nos services*/
+#partienosservices{
+    font-family: 'lato', sans-serif;
+}
+.nosservicescontainer{
+  position:relative;
+}
+
+.nosservicestitre{
+  font-family: 'fjalla one', sans-serif;
+  position:absolute;
+  top:30px;
+  left:10%;
+  font-size: 2.5rem!important;
+}
+
+
+.nosservicestext{
+position:absolute;
+color:white;
+top:400px;
+transform: rotate(-62deg);
+-moz-transform: rotate(-62deg);
+-webkit-transform: rotate(-62deg);
+-khtml-transform: rotate(-62deg);
+-ms-transform: rotate(-61deg);
+  width:650px;
+  justify-content: space-between;
+}
+
+.reprise{
+  left:2%;
+  width:700px;
+  top:410px;
+  }
+.service{
+  left:35%;
+}
+.garantie{
+  left:65%;
+}
+.nosservicesh2{
+  font-family: 'Fjalla one', sans-serif;
+  font-size:2.5rem!important
+
+}
+.flechegauchedroite{
+  position:absolute;
+  top:370px;
+  left:30%;
+}
+.flechegauchedroite1{
+  position:absolute;
+  top:370px;
+  left:60%;
+}
+.flechegauchedroite2{
+  position:absolute;
+  top:370px;
+  left:72%;
+}
+/*fin nos services*/
+
+/*reprises de votre vehicule*/
+#partiereprise{
+    font-family: 'lato', sans-serif;
+}
+.reprisedevotrevoiturecontainer{
+    position: relative;
+    background-color: #eb2525;
+}
+.reprisedevotrevoitureligne {
+  margin-right: 100px!important;
+  margin-left: 150px;
+  padding-top:50px;
+  height: 520px;
+  }
+
+  .formbuttonnosservices{
+    position:absolute;
+    top:-80px;
+    left:50%;
+    transform:translateX(-50%);
+    background:none;
+    font-weight: bold;
+    color:#eb2525;
+    border: solid 3px #eb2525;
+    border-radius: 0;
+    text-align: right;
+    margin-top: 20px;
+  }
+
+  .heightimgfluid{
+    height:400px!important;
+  }
+/*fin de reprises de votre vehicule*/
+
+/*nos marques*/
+#toutesnosmarques{
+  font-family: 'lato', sans-serif;
+}
+.titretoutesnosmarque{
+  position:absolute;
+  top:60px;
+  left:10%;
+  font-size: 2.5rem!important;
+}
+
+.toutesnosmarquescontainer{
+  position:relative;
+  background-color:black;
+  justify-content: center;
+  height:400px;
+padding-top: 200px;
+}
+/*fin nos marques*/
+
+
+/*nous contacter*/
+#partienouscontacter{
+    font-family: 'lato', sans-serif;
+}
+.carte{
+width:100%;
+}
+.nouscontactercartetext{
+  position:relative;
+}
+.nouscontactertext{
+  position:absolute;
+  top: 150px;
+  left: 2%;
+}
+.formbuttonnosnouscontacter{
+  background:none;
+  font-weight: bold;
+  color:white;
+  border: solid 3px white;
+  border-radius: 0;
+  text-align: right;
+  margin-top: 20px;
+}
+/*fin nous contacter*/
+
+/*fin de CSS DESKTOP*/
+
+
+
+/*MEDIA*/
+@media screen and (max-width: 993px){
+#headerversiondesktop{
+display:none;
+}
+
+#bodyversiondesktop{
+display:none;
+}
+}
+
+@media screen and (min-width:993px){
+  #headerversionmobile {
+    display:none;
+    }
+
+    #bodyversionmobile {
+      display:none;
+      }
 }

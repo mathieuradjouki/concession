@@ -2,6 +2,14 @@
 include('header.php');
  ?>
 
+ <!-- Start Header -->
+<header class="image-header">
+  <div class="d-flex justify-content-end">
+    <h2 class="titre-header text-uppercase text-white pr-2">notre expertise</h2>
+  </div>
+</header>
+<!-- End Header -->
+
  <!-- Start Qui sommes nous -->
  <section class="bg-qui-sommes-nous">
    <div class="container-fluid">

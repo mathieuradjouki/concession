@@ -219,6 +219,27 @@ li {
   opacity: 0.6;
 }
 
+.bg-notes {
+  background: no-repeat url("img-avis/Qui_Sommes_Nous/notes-mobile.png");
+  background-size: cover;
+  height: 387px;
+  width: 100%;
+}
+
+.star-width {
+  height: 15px;
+  width: 15px;
+}
+
+.title-notes-size {
+  font-size: 14px;
+}
+
+.opacity-text-notes {
+  background-color: rgba(26, 26, 26, 0.5);
+}
+
+
 /* carousel (avis) */
 .lines {
   display: block;
@@ -281,7 +302,7 @@ li {
 .bg-image {
   background: no-repeat url("img-avis/Avis/lines.png");
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   width: 100%;
   height: 953px;
 }
@@ -326,6 +347,137 @@ textarea {
 .size-text-form {
   font-size: 36px;
 }
+
+
+/* MEDIA QUERIES */
+@media (min-width: 990px) {
+
+
+  .notes-mobile-version {
+    display: none
+  }
+
+}
+
+@media (max-width: 991px) {
+  /* HEADER */
+  .image-header {
+    height: 392px;
+  }
+
+  .titre-header {
+    padding-top: 220px;
+  }
+
+  .hamburger-icon {
+    margin-top: 20px;
+  }
+
+  .logo {
+    height: 55px;
+    width: 135px;
+    margin: auto;
+    padding: auto;
+  }
+
+  /* QUI SOMMES NOUS */
+
+  .titre-qui-sommes-nous {
+    font-size: 24px;
+  }
+
+  .paragraphe-size-qui-sommes-nous {
+    font-size: 13px;
+  }
+
+
+  .bg-photo-presentation {
+    display: none;
+  }
+
+  /* CAROUSEL */
+
+  .border-avis {
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    width: 80%;
+  }
+
+  .icone-auteur-spacing {
+    padding-top: 5px;
+    padding-left: 4px;
+  }
+
+  .auteur-icone-name {
+    padding-left: 4px;
+  }
+
+  .nav-left {
+    display: none;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  .text-size-avis {
+    font-size: 14px
+  }
+
+ /* FORM */
+ .size-text-form {
+   font-size: 18px;
+ }
+
+ ::placeholder {
+   font-size: 18px;
+ }
+
+ .bg-image-form {
+   height: 1280px;
+ }
+
+ .form-button {
+   display: none;
+ }
+
+ .bg-image {
+   margin-top: -180px;
+   margin-bottom: -180px;
+ }
+
+ .stars-width-mobile {
+   height: 24px;
+   width: 20px;
+ }
+
+ /* FOOTER */
+
+ .footer-desktop {
+   display: none;
+ }
+
+ .font-size-title-footer {
+   font-size: 18px;
+ }
+
+ .font-size-text-horaires {
+   font-size: 12px;
+ }
+
+ .font-size-contact-footer {
+   12px;
+ }
+
+ .font-size-copyright {
+   font-size: 8px;
+ }
+
+}
+
+
 /* FIN CSS AVIS */
 
 

@@ -21,7 +21,7 @@
           </div>
           <div id="mySidebartoggle" class="sidebartoggle">
             <a href="#" class="closenavbtn" onclick="closeNav()">× Fermer</a>
-            <a href="#">Accueil</a>
+            <a href="http://localhost/concession/">Accueil</a>
             <a href="http://localhost/concession/voiture-neuve-2.php">Véhicules neufs</a>
             <a href="#">Véhicules d’occasion</a>
             <a href="http://localhost/concession/services.php">Nos services</a>
@@ -67,7 +67,7 @@
             <div class="container navbarlistcontainer col-md col-lg">
               <div id="mySidebartogglemobile" class=" sidebartogglemobile">
               <a href="#" class="closenavbtnmobile" onclick="closeNavmobile()">×</a>
-              <a href="#" class="sidebarlinks" >Accueil</a>
+              <a href="http://localhost/concession/" class="sidebarlinks" >Accueil</a>
               <a href="http://localhost/concession/voiture-neuve-2.php">Véhicules neufs</a>
               <a href="#">Véhicules d’occasion</a>
               <a href="http://localhost/concession/services.php">Nos services</a>

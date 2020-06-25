@@ -168,6 +168,21 @@
 
 /* CSS AVIS */
 
+.image-header {
+  background: no-repeat url("images/header/header.png");
+  background-size: cover;
+  height: 802px;
+  width: 100%;
+}
+
+
+.titre-header {
+  font-family: 'Fjalla One'!important, sans-serif;
+  padding-top: 500px;
+  font-size: 24px;
+}
+
+
 /* qui sommes nous (avis) */
 .bg-qui-sommes-nous {
   background-color: #262626;
@@ -367,16 +382,6 @@ textarea {
     padding-top: 220px;
   }
 
-  .hamburger-icon {
-    margin-top: 20px;
-  }
-
-  .logo {
-    height: 55px;
-    width: 135px;
-    margin: auto;
-    padding: auto;
-  }
 
   /* QUI SOMMES NOUS */
 

@@ -10,7 +10,6 @@
     <script src="https://kit.fontawesome.com/d4f9557e6e.js" crossorigin="anonymous"></script>
     <link href="/stylesheet.css" rel="stylesheet" type="text/css" >
     <link rel="stylesheet" href="main.css">
-
   </head>
   <body>
   <header>
@@ -22,11 +21,11 @@
           </div>
           <div id="mySidebartoggle" class="sidebartoggle">
             <a href="#" class="closenavbtn" onclick="closeNav()">× Fermer</a>
-            <a href="#">Accueil</a>
-            <a href="#">Véhicules neufs</a>
+            <a href="http://localhost/concession/">Accueil</a>
+            <a href="http://localhost/concession/voiture-neuve-2.php">Véhicules neufs</a>
             <a href="#">Véhicules d’occasion</a>
-            <a href="#">Nos services</a>
-            <a href="#">Notre expertise</a>
+            <a href="http://localhost/concession/services.php">Nos services</a>
+            <a href="http://localhost/concession/avis.php">Notre expertise</a>
             <a href="#">Contact</a>
           </div>
           <div  class="container containerwidth logoloupe">
@@ -68,11 +67,11 @@
             <div class="container navbarlistcontainer col-md col-lg">
               <div id="mySidebartogglemobile" class=" sidebartogglemobile">
               <a href="#" class="closenavbtnmobile" onclick="closeNavmobile()">×</a>
-              <a href="#" class="sidebarlinks" >Accueil</a>
-              <a href="#">Véhicules neufs</a>
+              <a href="http://localhost/concession/" class="sidebarlinks" >Accueil</a>
+              <a href="http://localhost/concession/voiture-neuve-2.php">Véhicules neufs</a>
               <a href="#">Véhicules d’occasion</a>
-              <a href="#">Nos services</a>
-              <a href="#">Notre expertise</a>
+              <a href="http://localhost/concession/services.php">Nos services</a>
+              <a href="http://localhost/concession/avis.php">Notre expertise</a>
               <a href="#">Contact</a>
             </div>
             </div>

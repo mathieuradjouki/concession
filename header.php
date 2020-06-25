@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/d4f9557e6e.js" crossorigin="anonymous"></script>
     <link href="/stylesheet.css" rel="stylesheet" type="text/css" >
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="pageaccueil.css">
+  
   </head>
   <body>
   <header>
@@ -61,7 +61,7 @@
             <div id="opennavtoggle-btnmobile" class="opennavbtn"  >
                <button class="opennavbtnstylemobile" onclick="openNavmobile()"> ☰ </button>
             </div>
-                <img src="image/logo.png" class="img-fluid  logomobile" alt="logo">
+                <img src="image/logo.png" class="img-fluid  logomobile logo-services" alt="logo">
             </div>
           </div>
           <div class="container-fluid">

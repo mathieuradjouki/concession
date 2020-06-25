@@ -2,7 +2,7 @@
 include('header.php');
 ?>
 <!--services css-->
-<link rel="stylesheet" href="service.css">
+
 
   <!-- Start Header -->
     <header class="header-service">

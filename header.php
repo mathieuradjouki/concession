@@ -23,10 +23,10 @@
           <div id="mySidebartoggle" class="sidebartoggle">
             <a href="#" class="closenavbtn" onclick="closeNav()">× Fermer</a>
             <a href="#">Accueil</a>
-            <a href="#">Véhicules neufs</a>
+            <a href="http://localhost/concession/voiture-neuve-2.php">Véhicules neufs</a>
             <a href="#">Véhicules d’occasion</a>
-            <a href="#">Nos services</a>
-            <a href="#">Notre expertise</a>
+            <a href="http://localhost/concession/services.php">Nos services</a>
+            <a href="http://localhost/concession/avis.php">Notre expertise</a>
             <a href="#">Contact</a>
           </div>
           <div  class="container containerwidth logoloupe">
@@ -69,10 +69,10 @@
               <div id="mySidebartogglemobile" class=" sidebartogglemobile">
               <a href="#" class="closenavbtnmobile" onclick="closeNavmobile()">×</a>
               <a href="#" class="sidebarlinks" >Accueil</a>
-              <a href="#">Véhicules neufs</a>
+              <a href="http://localhost/concession/voiture-neuve-2.php">Véhicules neufs</a>
               <a href="#">Véhicules d’occasion</a>
-              <a href="#">Nos services</a>
-              <a href="#">Notre expertise</a>
+              <a href="http://localhost/concession/services.php">Nos services</a>
+              <a href="http://localhost/concession/avis.php">Notre expertise</a>
               <a href="#">Contact</a>
             </div>
             </div>

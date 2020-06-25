@@ -10,35 +10,32 @@
     <script src="https://kit.fontawesome.com/d4f9557e6e.js" crossorigin="anonymous"></script>
     <link href="/stylesheet.css" rel="stylesheet" type="text/css" >
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="pageaccueil.css">
-
-
   </head>
   <body>
   <header>
-    <section id="navbartoggle">
+  <section id="headerversiondesktop">
+    <div id="navbartoggle" class="row">
+        <div class="col-lg">
           <div id="opennavtoggle-btn" class="opennavbtn"  >
              <button class="opennavbtnstyle" onclick="openNav()"> ☰ </button>
           </div>
           <div id="mySidebartoggle" class="sidebartoggle">
             <a href="#" class="closenavbtn" onclick="closeNav()">× Fermer</a>
             <a href="#">Accueil</a>
-            <a href="#">Véhicules neufs</a>
+            <a href="http://localhost/concession/voiture-neuve-2.php">Véhicules neufs</a>
             <a href="#">Véhicules d’occasion</a>
-            <a href="#">Nos services</a>
-            <a href="#">Notre expertise</a>
+            <a href="http://localhost/concession/services.php">Nos services</a>
+            <a href="http://localhost/concession/avis.php">Notre expertise</a>
             <a href="#">Contact</a>
           </div>
-
           <div  class="container containerwidth logoloupe">
             <div  class="logo ">
-                <img src="imagesaccueil/logo/logo.png" alt="logo">
+                <img src="image/logo.png" alt="logo" class="logo-services">
             </div>
             <div id="logoloupednone" class="iconeloupe ">
-                <a href="myFilterdnone" onclick="openFilter"><i class="fas fa-search text-white" ></i></a>
+                <a href="#" onclick="openFilter"><i class="fas fa-search text-white" ></i></a>
             </div>
           </div>
-
         <script type="text/javascript">
             function openNav() {
               document.getElementById("mySidebartoggle").style.width = "700px";
@@ -52,8 +49,45 @@
               document.getElementById("logoloupednone").style.display = "none";
               document.getElementById("myFilterdnone").style.display = "block";
             }
-
           </script>
+        </div>
+    </div>
+  </section>
+    <section id="headerversionmobile">
+      <div id="navbartogglemobile" >
+        <div class="container-fluid row ml-0 pr-0 pl-0 ">
+          <div class="col-md col-lg bgnavbar">
+            <div id="opennavtoggle-btnmobile" class="opennavbtn"  >
+               <button class="opennavbtnstylemobile" onclick="openNavmobile()"> ☰ </button>
+            </div>
+                <img src="image/logo.png" class="img-fluid  logomobile logo-services" alt="logo">
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="container navbarlistcontainer col-md col-lg">
+              <div id="mySidebartogglemobile" class=" sidebartogglemobile">
+              <a href="#" class="closenavbtnmobile" onclick="closeNavmobile()">×</a>
+              <a href="#" class="sidebarlinks" >Accueil</a>
+              <a href="http://localhost/concession/voiture-neuve-2.php">Véhicules neufs</a>
+              <a href="#">Véhicules d’occasion</a>
+              <a href="http://localhost/concession/services.php">Nos services</a>
+              <a href="http://localhost/concession/avis.php">Notre expertise</a>
+              <a href="#">Contact</a>
+            </div>
+            </div>
+          </div>
+          <script type="text/javascript">
+              function openNavmobile() {
+                document.getElementById("mySidebartogglemobile").style.height = "100vh";
+                document.getElementById("opennavtoggle-btnmobile").style.display = "none";
+                document.getElementById("myFilterdnonemobile").style.display = "none";
+                        }
+              function closeNavmobile() {
+                document.getElementById("mySidebartogglemobile").style.height = "0";
+                document.getElementById("opennavtoggle-btnmobile").style.display= "block";
+                document.getElementById("myFilterdnonemobile").style.display = "block";
+              }
+            </script>
+      </div>
     </section>
-
 </header>

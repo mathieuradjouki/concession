@@ -1,0 +1,593 @@
+/*CSS MOBILE*/
+/*header*/
+.bgnavbar{
+  background-color: #000;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opennavbtnstylemobile {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background: none;
+
+}
+.logomobile{
+  width:150px;
+
+}
+
+.sidebartogglemobile{
+  position:fixed;
+  width:100vw!important;
+  background-color:black;
+  opacity:80%;
+  height:0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 1;
+
+  }
+
+.sidebartogglemobile a{
+  color:white;
+  text-align:right;
+  padding: 8px 32px 8px 32px;
+  text-decoration: none;
+  color: white;;
+  display: block;
+  font-size: 2.5rem;
+
+  }
+.sidebarlinks{
+  margin-top: 20vh;
+}
+.sidebartogglemobile a:hover {
+  color: grey;
+}
+
+.closenavbtnmobile {
+  position: absolute;
+  top: 15px;
+  left:20px;
+  font-size: 20px;
+  z-index: 999;
+
+}
+.imagevoitureaccueil{
+    max-height:568px;
+}
+.imagevoituresize{
+  width:100%;
+  height:580px;
+}
+/*fin hedaer*/
+
+/*filtre*/
+
+.findcarmobile{
+position:absolute;
+top: 200px;
+right:50%;
+transform: translateX(50%);
+text-align: center;
+color:white;
+overflow-y: auto;
+height: 250px;
+}
+.form-controlbannermobile{
+  background: none;
+  margin-bottom: 10px;
+  border:none;
+  border-bottom: solid grey;
+  }
+
+.formbuttonaccueilmobile{
+  background:none;
+  color:#eb2525;
+  border: solid 3px #eb2525;
+  border-radius: 0;
+  text-align: right;
+  margin-top: 20px;
+}
+.findcarmobile::-webkit-scrollbar {
+  display:none;
+}
+/*fin filtre*/
+
+/*partie concession*/
+#partieconcessionmobile{
+  background-color: #000;
+}
+
+/*fin concession*/
+
+
+#partiederniersmodelesmobile{
+  background-color: #1a1a1a;
+  height:600px;
+  position:relative;
+}
+
+.essaimobile{
+  position:absolute;
+  top:400px;
+  left:50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  width:100%;
+}
+/*finnosderniersmodeles*/
+/*nosservices*/
+#partienosservicesmobile{
+  background-color: #000;
+
+}
+
+.formbuttonnosservicesmobile{
+  background:none;
+  font-weight: bold;
+  color:#eb2525;
+  border: solid 3px #eb2525;
+  border-radius: 0;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom : 250px;
+}
+
+/*finnosservices*/
+
+.cartemobile{
+width:100%;
+}
+#partienouscontactermobile{
+  position:relative;
+}
+.nouscontactertextmobile{
+position:absolute;
+top:-200px;
+left:50%;
+transform:translateX(-50%);
+background:#1a1a1a;
+color:white;
+width:90%;
+}
+.formbuttonnosnouscontactermobile{
+  background:none;
+  font-weight: bold;
+  color:white;
+  border: solid 3px white;
+  border-radius: 0;
+  text-align: right;
+  margin-top: 20px;
+}
+/*fin CSS MOBILE
+/*CSS DESKTOP*/
+/*header*/
+#navbartoggle{
+  font-family: 'lato', sans-serif;
+}
+.containerwidth{
+  max-width: 1830px;
+}
+.videoaccueil{
+  position:relative;
+  max-height: 700px;
+}
+.logoloupe{
+  position:relative;
+}
+.logo img{
+  position: absolute;
+  top:30px;
+  right:50%;
+  transform:translateX(50%);
+  z-index: 999;
+}
+
+.iconeloupe{
+  position: fixed;
+  right:5%;
+  top:50px;
+  z-index:1;
+}
+
+.sidebartoggle{
+  position:fixed;
+  width:0;
+  background-color:black;
+  opacity:70%;
+  height: 100vh!important;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 80px;
+}
+
+.sidebartoggle a{
+  font-size:3rem;
+  color:white;
+  line-height: 5rem;
+  text-align:right;
+  padding: 8px 32px 8px 32px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  }
+
+.sidebartoggle a:hover {
+  color: grey;
+}
+
+.sidebartoggle .closenavbtn {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  font-size: 20px;
+}
+.opennavbtn {
+  position:fixed;
+  top:25px;
+  left:45px;
+    z-index: 1;
+}
+.opennavbtnstyle {
+  font-size: 45px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background: none;
+}
+/*fin header*/
+
+
+/*filtre*/
+#filtrebanner{
+    font-family: 'lato', sans-serif;
+}
+
+.trouvervehicule{
+  font-family: 'fjalla one', sans-serif;
+}
+.findcar{
+position:absolute;
+top: 150px;
+right:100px;
+text-align: center;
+color:white;
+
+}
+.form-controlbanner{
+  background: none;
+  margin-bottom: 10px;
+  border:none;
+  border-bottom: solid grey;
+  }
+
+.formbuttonaccueil{
+  background:none;
+  font-weight: bold;
+  color:#eb2525;
+  border: solid 3px #eb2525;
+  border-radius: 0;
+  text-align: right;
+  margin-top: 20px;
+}
+
+/*fin filtre*/
+
+
+/* concession*/
+#partieconcession{
+  font-family: 'lato', sans-serif;
+}
+.concession, .concession2{
+position:relative;
+background-color: black;
+}
+
+.concessiontitle {
+  font-family: 'fjalla one', sans-serif;
+  position:absolute;
+  top:350px;
+  right: 20%;
+  color:white;
+  width:min-content;
+  line-height: 2em;
+}
+@media screen and (max-width :1024px){
+  .concessiontitle {
+    font-family: 'fjalla one', sans-serif;
+    position:absolute;
+    top:150px;
+    right: 20%;
+    color:white;
+    width:min-content;
+    line-height: 2em;
+  }
+}
+.concessionparagprahe{
+  position:absolute;
+  top:150px;
+  right: 10%;
+  color:white;
+  width:50vw;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width :1024+=1140px){
+  .concessionparagprahe {
+    position:absolute;
+    top:40px;
+    right: 2%;
+    color:white;
+    width:60vw;
+    line-height: 2em;
+    text-transform: uppercase;
+  }
+}
+
+.mask{
+  mask-image:url(imagesaccueil/masque.png);
+  mask-size :cover;
+  -webkit-mask:url(imagesaccueil/masque.png);
+  -webkit-mask-size:cover;
+  width:100%;
+  height:100%;
+}
+.mask2{
+  mask-image:url(imagesaccueil/masque2.png);
+  mask-size :cover;
+  -webkit-mask:url(imagesaccueil/masque2.png);
+  -webkit-mask-size:cover;
+  width:100%;
+  height:100%;
+}
+
+.imgfloatleft{
+  float:left;
+  padding-right: 80px;
+  margin-top: 30px;
+
+  }
+}
+/* fin concession*/
+
+
+/* dernières modèles*/
+#partiederniersmodeles{
+  font-family: 'lato', sans-serif;
+  margin-top: 200px;
+}
+
+.bg-color{
+  position:relative;
+  background-color:#262626!important;
+  height: 900px!important;
+}
+
+
+.titrederniers {
+  font-family: 'fjalla one', sans-serif;
+  position:absolute;
+  top:30px;
+  left:10%;
+  font-size: 2.5rem!important;
+}
+.essai{
+  position:absolute;
+  top:700px;
+  left:50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+}
+
+.nosdernieresmodelescarousel{
+  width:70%;
+  text-align: left;
+  margin:auto;
+  object-fit: cover;
+  padding-top: 200px;
+
+}
+
+
+.carouselimg p{
+  width:200px;
+  margin-left: 400px;
+}
+.carouselimg p.text-danger{
+  text-align: right;
+}
+
+@media screen and (max-width:1024px){
+  .carouselimg p{
+    width:200px;
+    margin-left: 350px;
+  }
+  .carouselimg p.text-danger{
+    text-align: right;
+  }
+}
+/*fin dernières modèles*/
+
+
+/*nos services*/
+#partienosservices{
+    font-family: 'lato', sans-serif;
+}
+.nosservicescontainer{
+  position:relative;
+}
+
+.nosservicestitre{
+  font-family: 'fjalla one', sans-serif;
+  position:absolute;
+  top:30px;
+  left:10%;
+  font-size: 2.5rem!important;
+}
+
+
+.nosservicestext{
+position:absolute;
+color:white;
+top:400px;
+transform: rotate(-62deg);
+-moz-transform: rotate(-62deg);
+-webkit-transform: rotate(-62deg);
+-khtml-transform: rotate(-62deg);
+-ms-transform: rotate(-61deg);
+  width:650px;
+  justify-content: space-between;
+}
+
+.reprise{
+  left:2%;
+  width:700px;
+  top:410px;
+  }
+.service{
+  left:35%;
+}
+.garantie{
+  left:65%;
+}
+.nosservicesh2{
+  font-family: 'Fjalla one', sans-serif;
+  font-size:2.5rem!important
+
+}
+.flechegauchedroite{
+  position:absolute;
+  top:370px;
+  left:30%;
+}
+.flechegauchedroite1{
+  position:absolute;
+  top:370px;
+  left:60%;
+}
+.flechegauchedroite2{
+  position:absolute;
+  top:370px;
+  left:72%;
+}
+/*fin nos services*/
+
+/*reprises de votre vehicule*/
+#partiereprise{
+    font-family: 'lato', sans-serif;
+}
+.reprisedevotrevoiturecontainer{
+    position: relative;
+    background-color: #eb2525;
+}
+.reprisedevotrevoitureligne {
+  margin-right: 100px!important;
+  margin-left: 150px;
+  padding-top:50px;
+  height: 520px;
+  }
+
+  .formbuttonnosservices{
+    position:absolute;
+    top:-80px;
+    left:50%;
+    transform:translateX(-50%);
+    background:none;
+    font-weight: bold;
+    color:#eb2525;
+    border: solid 3px #eb2525;
+    border-radius: 0;
+    text-align: right;
+    margin-top: 20px;
+  }
+
+  .heightimgfluid{
+    height:400px!important;
+  }
+/*fin de reprises de votre vehicule*/
+
+/*nos marques*/
+#toutesnosmarques{
+  font-family: 'lato', sans-serif;
+}
+.titretoutesnosmarque{
+  position:absolute;
+  top:60px;
+  left:10%;
+  font-size: 2.5rem!important;
+}
+
+.toutesnosmarquescontainer{
+  position:relative;
+  background-color:black;
+  justify-content: center;
+  height:400px;
+padding-top: 200px;
+}
+/*fin nos marques*/
+
+
+/*nous contacter*/
+#partienouscontacter{
+    font-family: 'lato', sans-serif;
+}
+.carte{
+width:100%;
+}
+.nouscontactercartetext{
+  position:relative;
+}
+.nouscontactertext{
+  position:absolute;
+  top: 150px;
+  left: 2%;
+}
+.formbuttonnosnouscontacter{
+  background:none;
+  font-weight: bold;
+  color:white;
+  border: solid 3px white;
+  border-radius: 0;
+  text-align: right;
+  margin-top: 20px;
+}
+/*fin nous contacter*/
+
+/*fin de CSS DESKTOP*/
+
+
+
+/*MEDIA*/
+@media screen and (max-width: 993px){
+#headerversiondesktop{
+display:none;
+}
+
+#bodyversiondesktop{
+display:none;
+}
+}
+
+@media screen and (min-width:993px){
+  #headerversionmobile {
+    display:none;
+    }
+
+    #bodyversionmobile {
+      display:none;
+      }
+}

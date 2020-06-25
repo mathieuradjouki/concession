@@ -3,7 +3,7 @@ include('header.php');
 ?>
 <!--services css-->
 <link rel="stylesheet" href="service.css">
-<body>
+
   <!-- Start Header -->
     <header class="header-service">
       <div class="container-fluid">

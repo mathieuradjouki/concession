@@ -16,7 +16,9 @@
   </head>
   <body>
   <header>
-    <section id="navbartoggle">
+  <section id="headerversiondesktop">
+    <div id="navbartoggle" class="row">
+        <div class="col-lg">
           <div id="opennavtoggle-btn" class="opennavbtn"  >
              <button class="opennavbtnstyle" onclick="openNav()"> ☰ </button>
           </div>
@@ -35,7 +37,7 @@
                 <img src="imagesaccueil/logo/logo.png" alt="logo">
             </div>
             <div id="logoloupednone" class="iconeloupe ">
-                <a href="myFilterdnone" onclick="openFilter"><i class="fas fa-search text-white" ></i></a>
+                <a href="#" onclick="openFilter"><i class="fas fa-search text-white" ></i></a>
             </div>
           </div>
 
@@ -54,6 +56,46 @@
             }
 
           </script>
+        </div>
+    </div>
+  </section>
+
+    <section id="headerversionmobile">
+      <div id="navbartogglemobile" >
+        <div class="container-fluid row ml-0 pr-0 pl-0 bgnavbar ">
+            <div id="opennavtoggle-btnmobile" class="opennavbtn"  >
+               <button class="opennavbtnstylemobile" onclick="openNavmobile()"> ☰ </button>
+            </div>
+                <img src="imagesaccueil/logo/logo.png" class="img-fluid  logomobile" alt="logo">
+                </div>
+          <div class="container-fluid">
+            <div class="container navbarlistcontainer col-md col-lg">
+              <div id="mySidebartogglemobile" class=" sidebartogglemobile">
+              <a href="#" class="closenavbtnmobile" onclick="closeNavmobile()">×</a>
+              <a href="#" class="sidebarlinks" >Accueil</a>
+              <a href="#">Véhicules neufs</a>
+              <a href="#">Véhicules d’occasion</a>
+              <a href="#">Nos services</a>
+              <a href="#">Notre expertise</a>
+              <a href="#">Contact</a>
+            </div>
+            </div>
+          </div>
+
+
+          <script type="text/javascript">
+              function openNavmobile() {
+                document.getElementById("mySidebartogglemobile").style.height = "100vh";
+                document.getElementById("opennavtoggle-btnmobile").style.display = "none";
+                document.getElementById("myFilterdnonemobile").style.display = "none";
+                        }
+              function closeNavmobile() {
+                document.getElementById("mySidebartogglemobile").style.height = "0";
+                document.getElementById("opennavtoggle-btnmobile").style.display= "block";
+                document.getElementById("myFilterdnonemobile").style.display = "block";
+              }
+            </script>
+      </div>
     </section>
 
 </header>

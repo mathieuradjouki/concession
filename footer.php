@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-<footer class="bg-footer">
-  <div class="container pt-5">
-=======
+
+
 
 <footer class="bg-footer">
   <!-- FOOTER DESKTOP -->
   <div class="container-fluid pt-5 footer-desktop">
->>>>>>> 015d5e21eca178936b890008eda2b20dbe81049b
+
     <div class="row pb-5">
       <div class="col-lg-3">
         <a href="#"><img src="images/header/logo.png" alt="logo"></a><br><br><br>
@@ -39,13 +37,6 @@
       </div>
     </div>
   </div>
-<<<<<<< HEAD
-  <div class="text-center border-top-footer pt-5 pb-5">
-    <p class="color-red-footer font-size-horaires ">© 2017-2018 Sport Design Automobiles - Une création IZIASYS Communication - Mentions légales - Politique de confidentialité</p>
-  </div>
-</footer>
-<!-- SCRIPTS BOOTSTRAP -->
-=======
   <div class="text-center border-top-footer pt-5 pb-5 footer-desktop">
     <p class="color-red-footer font-size-horaires">© 2017-2018 Sport Design Automobiles - Une création IZIASYS Communication - Mentions légales - Politique de confidentialité</p>
   </div>

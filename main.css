@@ -456,27 +456,7 @@ textarea {
    width: 20px;
  }
 
- /* FOOTER */
-
- .footer-desktop {
-   display: none;
- }
-
- .font-size-title-footer {
-   font-size: 18px;
- }
-
- .font-size-text-horaires {
-   font-size: 12px;
- }
-
- .font-size-contact-footer {
-   12px;
- }
-
- .font-size-copyright {
-   font-size: 8px;
- }
+ 
 
 }
 

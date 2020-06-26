@@ -367,7 +367,7 @@ include('header.php');
              <div class="form-example pb-4">
                <input type="email" name="email" id="email"  size="40" required class="bg-transparent border-form" placeholder="email">
              </div>
-             <div class="form-example pb-4">
+             <div class="form-example pb-4 ml-5">
                <textarea rows = "15" cols = "40" name = "description" class="bg-transparent border-form" placeholder="message"></textarea>
              </div>
              <div class="form-example form-button pb-4">

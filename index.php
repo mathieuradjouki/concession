@@ -1,5 +1,5 @@
 <?php
-include ('headeraccueil.php')
+include('headeraccueil.php');
 ?>
 <link rel="stylesheet" href="pageaccueil.css">
 
@@ -230,7 +230,7 @@ include ('headeraccueil.php')
 
 <section id="bodyversionmobile">
       <div class="container-fluid mr-0 ml-0 pr-0 pl-0 imagevoitureaccueil">
-            <img src="imagesaccueil\voitureimage.png" class=" imagevoituresize" alt="voiture">
+            <img src="image/voitureimage.png" class=" imagevoituresize" alt="voiture">
       </div>
 
       <section id="filtrebannermobile" class="container-fluid">
@@ -275,7 +275,7 @@ include ('headeraccueil.php')
         <div class="container-fluid mt-0 mr-0 ml-0 pr-0 pl-0">
           <div>
             <h3 class="text-center text-white pt-3 pb-3"> CONCESSION AUTOMOBILE EN ALSACE </h3>
-              <img src="imagesaccueil/imageconcessionmobile.jpg" alt="des voitures" class="img-fluid w-100">
+              <img src="image/imageconcessionmobile.jpg" alt="des voitures" class="img-fluid w-100">
           </div>
               <div class="row text-white ">
                 <div class="col-md  text-center pt-3">

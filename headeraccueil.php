@@ -11,8 +11,6 @@
     <link href="/stylesheet.css" rel="stylesheet" type="text/css" >
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="pageaccueil.css">
-
-
   </head>
   <body>
   <header>
@@ -31,7 +29,6 @@
             <a href="http://localhost/concession/avis.php">Notre expertise</a>
             <a href="#">Contact</a>
           </div>
-
           <div  class="container containerwidth logoloupe">
             <div  class="logo ">
                 <img src="imagesaccueil/logo/logo.png" alt="logo">
@@ -40,7 +37,6 @@
                 <a href="#" onclick="openFilter"><i class="fas fa-search text-white" ></i></a>
             </div>
           </div>
-
         <script type="text/javascript">
             function openNav() {
               document.getElementById("mySidebartoggle").style.width = "700px";
@@ -54,12 +50,10 @@
               document.getElementById("logoloupednone").style.display = "none";
               document.getElementById("myFilterdnone").style.display = "block";
             }
-
           </script>
         </div>
     </div>
   </section>
-
     <section id="headerversionmobile">
       <div id="navbartogglemobile" >
         <div class="container-fluid row ml-0 pr-0 pl-0 bgnavbar ">
@@ -81,8 +75,6 @@
             </div>
             </div>
           </div>
-
-
           <script type="text/javascript">
               function openNavmobile() {
                 document.getElementById("mySidebartogglemobile").style.height = "100vh";
@@ -97,5 +89,4 @@
             </script>
       </div>
     </section>
-
 </header>

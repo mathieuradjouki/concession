@@ -22,11 +22,11 @@
           </div>
           <div id="mySidebartoggle" class="sidebartoggle">
             <a href="#" class="closenavbtn" onclick="closeNav()">× Fermer</a>
-            <a href="index.php">Accueil</a>
-            <a href="voiture-neuve-2.php">Véhicules neufs</a>
+            <a href="./index.php">Accueil</a>
+            <a href="./voiture-neuve-2.php">Véhicules neufs</a>
             <a href="#">Véhicules d’occasion</a>
-            <a href="services.php">Nos services</a>
-            <a href="avis.php">Notre expertise</a>
+            <a href="./services.php">Nos services</a>
+            <a href="./avis.php">Notre expertise</a>
             <a href="#">Contact</a>
           </div>
           <div  class="container containerwidth logoloupe">
